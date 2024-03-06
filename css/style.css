@@ -10,8 +10,6 @@
     "section2"
     "section3"
     "section4";
-  width: 1201px;
-  height: 2342px;
   color: #403930;
   background: #FFEED9;
 }
@@ -35,8 +33,6 @@
   src: url("/fonts/Visitor Rus.ttf");
 }
 .header {
-  width: 390px;
-  height: 30px;
   left: 120px;
   top: 16px;
 }
@@ -91,17 +87,13 @@
   color: #F9B892;
 }
 #section1{
-  width: 1201px;
-  height: 700px;
   background: #FFDDBF;
 }
 #section2{
-  width: 1201px;
-  height: 681px;
   background: #FFEED9;
   display: grid;
-  grid-template-columns: 0.8fr 1.2fr;
-  grid-template-rows: 0.2fr 1.8fr;
+  grid-template-columns: 0.8fr 1fr;
+  grid-template-rows: 0.2fr 1fr;
   grid-template-areas:
     "txt3 txt3"
     "txt4 .";
@@ -109,15 +101,11 @@
 .txt3 { grid-area: txt3; }
 .txt4 { grid-area: txt4; }
 #section3{
-  width: 1201px;
-  height: 700px;
   display: flex;
   flex-direction: column;
   background: #FFDDBF;
 }
 #section4{
-  width: 1201px;
-  height: 581px;
   display: flex;
   flex-direction: column;
   background: #FFEED9;
@@ -133,14 +121,14 @@
   margin-left: 50px;
 }
 .txt3{
-  width: 1000px;
-  height: 80px;
   margin-top: 20px;
   margin-left: 100px;
+  margin-right: 100px;
   border-radius: 20px;
   background: #FFDDBF;
 }
 .txt4 {
+  height: 500px;
 }
 .txt5{
   width: 422px;
